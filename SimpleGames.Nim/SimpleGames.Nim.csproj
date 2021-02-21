@@ -11,6 +11,17 @@
     <Copyright>Copyright (c) 2021 by Bychenko Dmitry</Copyright>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>SimpleGames.Nim.snk.pfx</AssemblyOriginatorKeyFile>
+    <ApplicationIcon>Nim.ico</ApplicationIcon>
+    <PackageIcon>Nim.ico</PackageIcon>
+    <RepositoryUrl>https://github.com/CopperNickel/SimpleGames.Nim</RepositoryUrl>
+    <PackageTags>SimpleGames Nim</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Images\Nim.ico">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
