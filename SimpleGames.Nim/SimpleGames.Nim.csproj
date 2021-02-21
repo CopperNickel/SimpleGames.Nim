@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>.net5</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Dmitry Bychenko</Authors>
+    <Company>Dmitry Bychenko</Company>
+    <Product>Nim Games</Product>
+    <Description>Nim and 3-5-7 matches game</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright (c) 2021 by Bychenko Dmitry</Copyright>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>SimpleGames.Nim.snk.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+</Project>
