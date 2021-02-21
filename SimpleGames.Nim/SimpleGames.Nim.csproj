@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>.net5</TargetFramework>
@@ -6,19 +6,23 @@
     <Authors>Dmitry Bychenko</Authors>
     <Company>Dmitry Bychenko</Company>
     <Product>Nim Games</Product>
-    <Description>Nim and 3-5-7 matches game</Description>
+    <Description>Nim and 3-5-7 Sticks Game</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Copyright>Copyright (c) 2021 by Bychenko Dmitry</Copyright>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>SimpleGames.Nim.snk.pfx</AssemblyOriginatorKeyFile>
     <ApplicationIcon>Nim.ico</ApplicationIcon>
-    <PackageIcon>Nim.ico</PackageIcon>
+    <PackageIcon>Nim.png</PackageIcon>
     <RepositoryUrl>https://github.com/CopperNickel/SimpleGames.Nim</RepositoryUrl>
     <PackageTags>SimpleGames Nim</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\..\Images\Nim.ico">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\Images\Nim.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
