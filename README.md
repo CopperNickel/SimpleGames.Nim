@@ -1,5 +1,7 @@
 # Nim Game 
 
+[![NuGet version (SimpleGames.Nim)](https://img.shields.io/nuget/v/SimpleGames.Nim.svg?style=flat-square)](https://www.nuget.org/packages/SimpleGames.Nim/)
+
 Is good old classical [Nim game](https://en.wikipedia.org/wiki/Nim)
 
 # 3-5-7 Sticks Game
